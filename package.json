@@ -2,8 +2,8 @@
 	"name": "@vyper-protocol/rust-decimal-wrapper",
 	"version": "0.1.1",
 	"description": "A typescript node module to deserialize rust Decimal values",
-	"main": "dist/index.js",
-	"typings": "dist/index.d.ts",
+	"main": "index.js",
+	"typings": "index.d.ts",
 	"scripts": {
 		"build": "tsc",
 		"lint": "eslint -c .eslintrc.js src/**/*.ts",
@@ -23,11 +23,8 @@
 	},
 	"files": [
 		"package.json",
-		"lib"
+		"dist"
 	],
-	"directories": {
-		"lib": "lib"
-	},
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/vyper-protocol/rust-decimal-wrapper/issues"
