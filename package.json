@@ -11,7 +11,7 @@
 		"prettify-check": "prettier -c ./src",
 		"precommit": "yarn prettify && yarn lint",
 		"prepublish": "yarn run build",
-		"test": "ts-mocha test/*.test.ts -t 100000"
+		"test": "ts-mocha tests/*.test.ts -t 100000"
 	},
 	"repository": {
 		"type": "git",
