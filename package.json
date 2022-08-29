@@ -1,6 +1,6 @@
 {
 	"name": "@vyper-protocol/rust-decimal-wrapper",
-	"version": "1.0.0",
+	"version": "0.0.1",
 	"description": "A typescript node module to deserialize rust Decimal values",
 	"main": "index.js",
 	"typings": "./index.d.ts",
