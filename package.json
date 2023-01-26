@@ -18,8 +18,7 @@
 		"url": "git+https://github.com/vyper-protocol/rust-decimal-wrapper.git"
 	},
 	"publishConfig": {
-		"access": "public",
-		"registry": "https://registry.npmjs.org/"
+		"registry": "https://npm.pkg.github.com/"
 	},
 	"files": [
 		"package.json",
